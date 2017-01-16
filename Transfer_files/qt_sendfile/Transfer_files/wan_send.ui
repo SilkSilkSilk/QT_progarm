@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WAN_send</class>
+ <widget class="QWidget" name="WAN_send">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="sendfileButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送文件</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>251</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ip</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>端口</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
